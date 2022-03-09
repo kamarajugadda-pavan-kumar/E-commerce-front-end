@@ -10,7 +10,7 @@ const Product = ({item}) => {
         <Image src={item.img} />
         <Info>
             <Icon>
-                <SearchOutlinedIcon/>
+                <SearchOutlinedIcon />
             </Icon>
             <Icon>
                 <AddShoppingCartOutlinedIcon/>

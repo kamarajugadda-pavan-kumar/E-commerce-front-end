@@ -1,6 +1,7 @@
 import React from 'react'
-import {Search, ShoppingCartOutlined} from '@material-ui/icons'
-import Badge from '@material-ui/core/Badge'
+import SearchIcon from '@mui/icons-material/Search';
+import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
+import Badge from '@mui/material/Badge';
 import {Container,
     Wrapper,
     Left,
@@ -21,7 +22,7 @@ const Navbar = () => {
                 </Language>
                 <SearchContainer>
                     <Input/>
-                    <Search style={{color:'gray', fontSize:15}}/>
+                    <SearchIcon style={{color:'gray', fontSize:15}}/>
                 </SearchContainer>
             </Left>
             <Center>
@@ -32,7 +33,7 @@ const Navbar = () => {
                 <MenuItem>Sign In</MenuItem>
                 <MenuItem>
                     <Badge badgeContent={4} color="primary">
-                        <ShoppingCartOutlined/>
+                        <ShoppingCartOutlinedIcon/>
                     </Badge>
                 </MenuItem>
 

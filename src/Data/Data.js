@@ -75,8 +75,7 @@ const categories=[
     },
     {
       id:7,
-      img:"https://www.vintageindustries.nl/download_front/qympzk1762/2217_Arrow_Jacket_Forest.png",
-    },
+      img:"https://m.media-amazon.com/images/I/7113XqJIZ9L._UX679_.jpg"    },
     {
       id:8,
       img:"https://www.pngarts.com/files/3/Women-Jacket-PNG-High-Quality-Image.png",
