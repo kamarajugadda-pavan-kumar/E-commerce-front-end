@@ -75,8 +75,8 @@ const Login = () => {
                   <Input placeholder='email or username'></Input>
                   <Input placeholder='password'></Input>
                   <Agreement>
-                    <div><a>Forgot Password</a></div>
-                    <div>Didn't Register yet? <a><b>Register</b></a></div></Agreement>
+                    <div><a href={"/home"}>Forgot Password</a></div>
+                    <div>Didn't Register yet? <a href={"/register"}><b>Register</b></a></div></Agreement>
                   <Button>Log in</Button>
               </Form>
         </Left>
